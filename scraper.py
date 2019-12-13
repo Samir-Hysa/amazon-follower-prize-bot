@@ -29,7 +29,7 @@ def send_email():
     connection_server.ehlo()
     connection_server.login("email", "password")
 
-    # define the message texts
+    # define the message text
     subject = " HEY THE PRODUCT HAS A FALLDOWN PRIZE: "
     body = " go to the amazon link : https://www.amazon.it/Anycubic-Stampante-schermo-Printer-115x65x155/dp/B07QDYYDDB/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stampante+3d&qid=1576225644&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNDdBTFhNWVdPNDdIJmVuY3J5cHRlZElkPUEwNTE2OTcxM1EwVkVYNzJVMTQyVyZlbmNyeXB0ZWRBZElkPUEwOTQ3Mjg5UVhJSFhPTVBZV1pLJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==  "
     msg = f"subject:{subject},\n\n{body}"
